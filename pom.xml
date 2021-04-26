@@ -55,11 +55,6 @@
       <name>maven-proxy</name>
       <url>http://192.168.1.150:8081/repository/TEST-git/</url>
     </repository>
-    <snapshortRepository>
-      <id>nexus</id>
-      <name>maven-snapshorts</name>
-      <url>http://192.168.1.150:8081/repository/maven-snapshots/</url>
-    </snapshortRepository>
   </distributionManagement>
   
   <dependencies>
