@@ -1,3 +1,4 @@
+<!--
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
@@ -38,5 +39,34 @@
   		<artifactId>javax.servlet-api</artifactId>
   		<version>3.0.1</version>
   	</dependency>
+  </dependencies>
+</project>
+-->
+
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nexus</groupId>
+  <artifactId>nexus-proxy</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>maven-Releases</name>
+      <url>http://192.168.1.150:8081/repository/TEST-git/</url>
+    </repository>
+    <snapshortRepository>
+      <id>nexus</id>
+      <name>maven-snapshorts</name>
+      <url>http://192.168.1.150:8081/repository/maven-snapshots/</url>
+    </snapshortRepository>
+  </distributionManagement>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+    </dependency>
   </dependencies>
 </project>
