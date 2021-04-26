@@ -27,7 +27,7 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>Projects</id>
             <name>Internal Releases</name>
             <url>http://192.168.1.150:8081/repository/TEST-git/</url>
         </repository>
