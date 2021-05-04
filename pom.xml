@@ -47,18 +47,18 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>nexus</groupId>
   <artifactId>nexus-proxy</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   
   <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>maven-proxy</name>
-      <url>http://192.168.1.150:8081/repository/TEST-git/</url>
+      <url>http://192.168.1.166:8081/repository/maven-central/</url>
     </repository>
     <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://192.168.1.150:8081/repository/maven-snapshots/</url>
+            <url>http://192.168.1.166:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
   </distributionManagement>
   
