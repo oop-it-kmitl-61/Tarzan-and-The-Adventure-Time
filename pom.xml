@@ -59,8 +59,12 @@
             <id>nexus</id>
             <name>Internal Snapshot Releases</name>
             <url>http://192.168.1.166:8081/repository/maven-snapshots/</url>
-            <url>http://192.168.1.166:8081/repository/maven-releases/</url>
         </snapshotRepository>
+    <releasesRepository>
+            <id>nexus</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://192.168.1.166:8081/repository/maven-snapshots/</url>
+        </releasesRepository>
   </distributionManagement>
   
   <dependencies>
