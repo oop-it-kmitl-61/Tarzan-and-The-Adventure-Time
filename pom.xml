@@ -55,11 +55,6 @@
       <name>maven-proxy</name>
       <url>http://192.168.1.166:8081/repository/test2/</url>
     </repository>
-    <releases>
-            <id>nexus</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://192.168.1.166:8081/repository/maven-snapshots/</url>
-        </releases>
     <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot Releases</name>
